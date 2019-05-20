@@ -1,0 +1,14 @@
+Thumbs.db
+.DS_Store
+.idea
+node_modules
+.ebextensions
+dist
+package-lock.json
+src/config/local.js
+uploads/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.vscode-janus-debug

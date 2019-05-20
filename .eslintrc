@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "linebreak-style": 0,
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "no-underscore-dangle": 0,
+    "no-await-in-loop": 0
+  },
+  "extends": "airbnb-base"
+}
